@@ -111,3 +111,23 @@ Tags: R, Shiny, visualization
 I’m constantly thinking about how to capture and analyze data from day-to-day life. Moment is an iPhone app that tracks screen time and phone pickups. Under the advanced settings, the app offers data export (via JSON file) for nerds like me. In this post I'll perform a basic basic analysis of my usage data using R.
 
 Tags: R, visualization
+
+## Credit Card Advice
+
+David Robinson, Chief Data Scientist at DataCamp, once tweeted: "When you’ve written the same code 3 times, write a function. When you’ve given the same advice 3 times, write a blog post."  I’ve recently given advice to a few family members about selecting a credit card so, in the spirit of David’s tweet, I’ve compiled some tips and information about credit cards.
+
+## Fundamentals of Investing
+
+The following phrase encapsulates my investing philosophy and serves as a reminder of four fundamentals of investing: I will pursue low-cost, tax-efficient investments that form a diversified, long-term portfolio. 
+
+## 6 Tips for Economics Majors at BYU
+
+With graduation on the horizon, it’s natural to wax reflective. I’ve spent some time compiling some unsolicited advice for new Economics majors at Brigham Young University. These are tidbits of knowledge and insight I’ve gained slowly by trial-and-error and experience over the past four years, compactly compiled for your educational enhancement.
+
+## 5 Essential iPhone Apps
+
+I’m always looking for apps that enhance my life and productivity. A family member recently purchased a new iPhone and asked for my top app recommendations. Here are my top five: LastPass, Pocket, Moment, Mint, and Google Keep. 
+
+## Basic Interview Tips
+
+There are few things more nerve-racking than an interview. Here I've compiled some helpful tips to help set yourself apart.
