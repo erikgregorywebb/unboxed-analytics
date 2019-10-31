@@ -1,6 +1,6 @@
 ## Building a Simple Crypto Alert Bot in Python
 
-Considering the volatility of the cryptocurrency markets, can a crypto enthusiast be smart about when to buy, in pursuit of a “bargain”, and do so in a systematic, automated fashion? This post outlines the process of building a crypto alert system using Python, which sends a push notification via Slack when a cryptocurrency (BTC, XRP, ETCh) appears “cheap” relative to historical prices. 
+Considering the volatility of the cryptocurrency markets, can a crypto enthusiast be smart about when to buy, in pursuit of a “bargain”, and do so in a systematic, automated fashion? This post outlines the process of building a crypto alert system using Python, which sends a push notification via Slack when a cryptocurrency (BTC, XRP, ETC) appears “cheap” relative to historical prices. 
  
 Tags: Python, API, cryptocurrency, bot
  
@@ -30,19 +30,19 @@ Tags: R, visualization
 
 ## Visualizing NYC Housing Trends with gganimate in R 
 
-The NYC housing market is wild. Where else in the US can you pay so much and get so little in return? In this post I’ll use the gganimate package in R to visualize the ebb and flow of rental housing availability in NYC, using publicly avaiblie data from StreetEasy, "NYC’s leading real estate marketplace". If the law of supply and demand holds, this should inform ideal times for apartment hunting.
+The NYC housing market is wild. Where else in the US can you pay so much and get so little in return? In this post I’ll use the gganimate package in R to visualize the ebb and flow of rental housing availability in NYC, using publicly available data from StreetEasy, "NYC’s leading real estate marketplace". If the law of supply and demand holds, this should inform ideal times for apartment hunting.
  
 Tags: R, Visualization, gganimate, NYC
 
 ## Mapping Scarsdale Real Estate Data with Python
 
-This year my wife and I moved to New York for the start of a new job. Initially overwhelmed by the scope and pace of the NYC housing market, we were given the very generous and unexpected opportunity by a family friend to live in a house north of the city in Westchester County. Built in the early 1930s, the historic home is situated in central Scarsdale, an affluent suburban town known for high-achieving schools and extravagant real estate. Using Python, the Google Maps geocoding API, and rich property data made avalible by the Village of Scarsdale, this post contains visualizaions of real estate metrics like year built, assessed value, and sales date.
+This year my wife and I moved to New York for the start of a new job. Initially overwhelmed by the scope and pace of the NYC housing market, we were given the very generous and unexpected opportunity by a family friend to live in a house north of the city in Westchester County. Built in the early 1930s, the historic home is situated in central Scarsdale, an affluent suburban town known for high-achieving schools and extravagant real estate. Using Python, the Google Maps geocoding API, and rich property data made available by the Village of Scarsdale, this post contains visualizations of real estate metrics like year built, assessed value, and sales date.
 
 Tags: Python, API, geocoding, visualization
 
 ## Scraping Stack Overflow Salaries with Python
 
-The Stack Overflow salary calculator takes inputs like role, location, and education and outputs salary predictions at the 25th, 50th, and 75th percentile. To extract Data Scientist salary data (or extrapolated data) from the tool, I wrote a Python script using Selenium to loop through 350+ different combinations of location, education and expereince.
+The Stack Overflow salary calculator takes inputs like role, location, and education and outputs salary predictions at the 25th, 50th, and 75th percentile. To extract Data Scientist salary data (or extrapolated data) from the tool, I wrote a Python script using Selenium to loop through 350+ different combinations of location, education and experience.
 
 Tags: Python, Selenium, web scraping
 
@@ -75,3 +75,39 @@ Tags: R, web scraping, automation
 In this post, I use Python to create a Chase branch coverage map for my home state of Utah, scrapping branch and ATM information from Chase.com and obtaining geographic coordinates using the Google Maps geocoding API.
 
 Tags: Python, API, web scraping, geocoding
+
+## Analyzing Drake’s Catalog Using Spotify’s API
+
+I’ve been a Drake fan since 2009 when I first heard “Best I Ever Had” from So Far Gone. Over the last decade, I’ve watched Drake transform into a global rap and pop superstar. This weekend I saw Drake live in Brooklyn as part of the Aubrey & the Three Migos tour. What better way to celebrate than by analyzing his catalog using Spotify’s API? I look at things like who Drake likes to collaborate with and if his songs have become more "danceable" over time. 
+
+Tags: Python, API, Tableau, visualization 
+
+## Uncovering Insights via Google Sheets Query
+
+The Google Sheets query function brings some of the power of SQL to spreadsheets. In this post, I’ll walk through three examples of the query function to explore a CrunchBase dataset of startup companies. The CrunchBase dataset contains information about 49,000+ startups including the startup name, website, market, status, funding, and location. We'll explore the number of startups by state, the number of California and New York startups over time, as well as total funding by market. 
+
+Tags: Google Sheets, SQL, visualization
+
+## The Hunt for Housing in NYC: A Data-Driven Approach
+
+This summer my wife and I relocated to New York City in preparation for the start of my new job. Housing in Manhattan and the surrounding boroughs is notoriously expensive, so I decided to pursue a data-driven approach to our apartment search. I wrote a Python script to scrape 9,000+ apartment listings on Craigslist for zip codes in the five boroughs: Manhattan, Bronx, Brooklyn, Queens, and Staten Island. I then visualized the median rent by zip code in Tablaeu. 
+
+Tags: Python, web scraping, visualization
+
+## Complete Python Selenium Web Scraping Example
+
+I recently listed a couple of items for sale on a Craigslist-like site called KSL Classifieds. It’s a rich marketplace to buy and sell almost anything. I instinctively started thinking about how to collect information about listings in this marketplace in a systematic way. In this post I provide a step-by-step walkthrough on how to leverage the Selenium package in Python to do web scraping. 
+
+Tags: Python, web scraping
+
+## Interactive Investment Tool with R Shiny
+
+R Shiny is a fantastic framework to quickly develop and launch interactive data applications. I recently wrote some investing advice and was looking for a way to illustrate two case studies. Building on an RStudio template, I created a tool to visualize the return of an investment over time, allowing the user to modify each parameter and observe its effect:
+
+Tags: R, Shiny, visualization
+
+## Analyzing iPhone Usage Data in R
+
+I’m constantly thinking about how to capture and analyze data from day-to-day life. Moment is an iPhone app that tracks screen time and phone pickups. Under the advanced settings, the app offers data export (via JSON file) for nerds like me. In this post I'll perform a basic basic analysis of my usage data using R.
+
+Tags: R, visualization
